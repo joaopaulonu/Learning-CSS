@@ -1,0 +1,42 @@
+/* Resetando margens e padding para evitar espaçamentos indesejados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilizando o cabeçalho */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o parágrafo */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilizando a lista não ordenada */
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Estilizando os itens da lista */
+ul li {
+    font-size: 1.1rem;
+    color: #2980b9;
+    margin: 10px 0;
+}
